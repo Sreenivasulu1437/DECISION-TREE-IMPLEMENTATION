@@ -127,3 +127,7 @@ jupyter notebook decision_tree_classifier.ipynb
 # Model saved as 'decision_tree_iris_model.pkl'
 📚 CONCLUSION
 The optimized Decision Tree achieves 97.8% accuracy while providing clear, human-readable decision rules. This balance of performance and interpretability makes decision trees ideal for real-world applications requiring transparent predictions. The implementation successfully demonstrates pruning techniques to prevent overfitting while maintaining high classification accuracy.
+
+#OUT PUT
+
+<img width="1200" height="901" alt="Image" src="https://github.com/user-attachments/assets/b3627492-5c27-4c97-b547-945b9e28e2d6" />
