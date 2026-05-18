@@ -130,6 +130,52 @@ The optimized Decision Tree achieves 97.8% accuracy while providing clear, human
 
 #OUT PUT
 
+============================================================
+DATA SPLIT
+============================================================
+Training set size: 105 samples
+Testing set size: 45 samples
+
+============================================================
+DEFAULT DECISION TREE MODEL EVALUATION
+============================================================
+Training Accuracy: 1.0000
+Testing Accuracy: 0.9333
+Cross-validation Scores: [0.95238095 0.95238095 0.95238095 0.9047619  0.95238095]
+Mean CV Score: 0.9429 (+/- 0.0381)
+
+Classification Report (Test Set):
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        15
+  versicolor       1.00      0.80      0.89        15
+   virginica       0.83      1.00      0.91        15
+
+    accuracy                           0.93        45
+   macro avg       0.94      0.93      0.93        45
+weighted avg       0.94      0.93      0.93        45
+
+
+============================================================
+OPTIMIZED DECISION TREE MODEL EVALUATION
+============================================================
+Training Accuracy: 0.9714
+Testing Accuracy: 0.9333
+Cross-validation Scores: [0.95238095 0.95238095 1.         0.9047619  0.95238095]
+Mean CV Score: 0.9524 (+/- 0.0602)
+
+Classification Report (Test Set):
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        15
+  versicolor       0.88      0.93      0.90        15
+   virginica       0.93      0.87      0.90        15
+
+    accuracy                           0.93        45
+   macro avg       0.93      0.93      0.93        45
+weighted avg       0.93      0.93      0.93        45
+
+
 <img width="1200" height="901" alt="Image" src="https://github.com/user-attachments/assets/b3627492-5c27-4c97-b547-945b9e28e2d6" />
 
 <img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/abc31c49-938e-45d0-9f00-5114d9cc537e" />
